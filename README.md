@@ -20,8 +20,6 @@ We provide two sources for downloading the dataset and supplementary materials. 
 
 ## 📂 Dataset Structure
 
-The downloaded data should be organized according to the following directory structure:
-
 ```text
 MCODV2/
 ├── TrainDataset/

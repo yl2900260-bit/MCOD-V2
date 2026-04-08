@@ -1,2 +1,36 @@
-# MCOD-V2
-Dataset is available at [BaiduNetdisk](https://pan.baidu.com/s/1CJNwcC41NM-QinCw8Wc_5g?pwd=u6t3)(code:u6t3) and [Google Drive](https://drive.google.com/file/d/1bfC-EJ_MW512fYQLkNboFVl6kTva_Ey0/view?usp=sharing).
+# MCOD-V2: A Challenging Text-Guided Multispectral Benchmark for Multi-Camouflaged Object Detection
+
+This is the official repository for the **MCOD-V2** dataset, submitted to the ACM Multimedia (ACM MM) Dataset Track.
+
+---
+
+## 📥 Data Download
+
+We provide two sources for downloading the dataset and supplementary materials. Please choose the appropriate link based on your requirements for multispectral data.
+
+| Source | Content | Access Link |
+| :--- | :--- | :--- |
+| **Baidu Netdisk** | **Full Dataset** (Includes Multispectral Images) & Supplementary Materials | [Download](https://pan.baidu.com/s/1drOvr8SGhNFv43QquroBlQ?pwd=kd2w) (Passcode: `kd2w`) |
+| **Google Drive** | **Lite Dataset** (Includes everything **EXCEPT** Multispectral Images) | [Download](https://drive.google.com/file/d/1bfC-EJ_MW512fYQLkNboFVl6kTva_Ey0/view?usp=sharing) |
+
+> [!IMPORTANT]
+> **Size Notice:** Due to the large file size of the multispectral images (`.mat` files), the Google Drive link only contains the standard images and annotations. For the complete dataset including multispectral data, please use the Baidu Netdisk link.
+
+---
+
+## 📂 Dataset Structure
+
+The downloaded data should be organized according to the following directory structure:
+
+```text
+MCODV2/
+├── Train/
+│   ├── Train_mat/     # Multispectral data (Baidu Netdisk only)
+│   ├── Imgs/          # RGB or standard images
+│   ├── GT/            # Ground truth annotations
+│   └── train_txt      # Training list/metadata
+└── Test/
+    ├── Test_mat/      # Multispectral data (Baidu Netdisk only)
+    ├── Imgs/          # RGB or standard images
+    ├── GT/            # Ground truth annotations
+    └── test_txt       # Testing list/metadata

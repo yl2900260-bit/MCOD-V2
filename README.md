@@ -1,6 +1,6 @@
 # MCOD-V2: A Challenging Text-Guided Multispectral Benchmark for Multi-Camouflaged Object Detection
 
-This is the official repository for the **MCOD-V2** dataset, submitted to the ACM Multimedia (ACM MM) Dataset Track.
+This is the official repository for the **MCOD-V2** dataset.
 
 ---
 

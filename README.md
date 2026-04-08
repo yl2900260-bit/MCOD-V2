@@ -11,7 +11,7 @@ We provide two sources for downloading the dataset and supplementary materials. 
 | Source | Content | Access Link |
 | :--- | :--- | :--- |
 | **Baidu Netdisk** | **Full Dataset** (Includes Multispectral Images) & Supplementary Materials | [Download](https://pan.baidu.com/s/1drOvr8SGhNFv43QquroBlQ?pwd=kd2w) (Code: `kd2w`) |
-| **Google Drive** | **Lite Dataset** (Includes everything **EXCEPT** Multispectral Images) | [Download](https://drive.google.com/file/d/1bfC-EJ_MW512fYQLkNboFVl6kTva_Ey0/view?usp=sharing) |
+| **Google Drive** | **Lite Dataset** (Includes everything **EXCEPT** Multispectral Images) | [Download](https://drive.google.com/drive/folders/1lqwoUoxqCr5qeoXGIDUA_pMLjmNUgimG?usp=sharing) |
 
 > [!IMPORTANT]
 > **Size Notice:** Due to the large file size of the multispectral images (`.mat` files), the Google Drive link only contains images and annotations. For the complete dataset including multispectral data, please use the Baidu Netdisk link.
